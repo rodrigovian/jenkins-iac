@@ -26,7 +26,7 @@ agent any
   stages {
     stage('Clone') {
       steps {
-        git url: 'github.com:rodrigovian/vorx-network.git', branch: 'main'
+        git url: 'git@github.com:rodrigovian/vorx-network.git', branch: 'main'
       }
     }
 
