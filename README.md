@@ -17,7 +17,7 @@ Armazenar códigos do jenkins server
 - 6. Clonar o repositório git;
     - ```docker exec -ti jenkins-terraform-server bash -c "cd ~ ; git clone git@github.com:rodrigovian/vorx-network.git"```
 
-- 7. Acessar a interface WEB via elastip ip (Ex. http://http://52.22.138.98)
+- 7. Acessar a interface WEB via elastip ip (Ex. http://52.22.138.98)
 - 8. Colocar a senha e fazer o wizard, continuando como Administrador.
 - 9. Criar um pipeline no jenkins, com o conteudo abaixo:
 ```
